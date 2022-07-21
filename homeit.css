@@ -1,5 +1,176 @@
 * {
   font-family: 'Homemade Apple', cursive;
+  font-family: 'Tajawal', sans-serif;
   margin: 0 auto;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkgray;
+}
+
+/* HEADER START */
+
+.header {
+  display: flex;
+  border: 1px solid darkgray;
+  box-shadow: 4px 8px 8px 4px gray;
+  width: 900px;
+  height: 80px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: #D2D2D2;
+}
+
+.header-body {
+  display: flex;
+  width: 900px;
+  height: 80px;
+  margin: 0 auto;
+  justify-content: center;
+  flex-direction: row;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  font-size: 22px;
+  padding-right: 10px;
+}
+
+.leftside {
+  position: relative;
+  width: 50%;
+  padding: 22px;
+}
+
+.avatar {
+  position: absolute;
+  left: 10px;
+  top: 12px;
+}
+
+.uno {
+  margin-left: 70px;
+}
+
+.rightside {
+  position: relative;
+  width: 50%;
+  padding: 22px;
+}
+
+.bio,
+.pro,
+.illustrazioni {
+  font-weight: normal;
+}
+
+.social {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+}
+
+/* HEADER END */
+
+/* BODY START */
+
+.welcome {
+  border: 1px solid darkgray;
+  width: 1000px;
+  display: flex;
+  margin-top: 40px;
+  height: 450px;
+  align-items: center;
+  justify-content: start;
+  box-shadow: 4px 8px 8px 4px gray;
+  background-color: #D2D2D2;
+}
+
+.firsth {
+  font-weight: normal;
+  font-size: 50px;
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  * {
+    font-family: 'Homemade Apple', cursive;
+    font-family: 'Tajawal', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: darkgray;
+  }
+
+  .header {
+    display: flex;
+    border: 1px solid black;
+    width: 600px;
+    height: 80px;
+    margin: 0 auto;
+  }
+
+  .header-body {
+    display: flex;
+    width: 600px;
+    height: 80px;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+  }
+
+  li {
+    font-size: 18px;
+
+  }
+
+  .leftside {
+    position: relative;
+    width: 40%;
+    padding: 22px;
+  }
+
+  .avatar {
+    position: absolute;
+    left: 10px;
+    top: 18px;
+    border: 1px solid black;
+    width: 40px;
+  }
+
+  .rightside {
+    position: relative;
+    width: 40%;
+    padding: 22px;
+  }
+
+  .social {
+    position: absolute;
+    right: 2px;
+    top: 20px;
+    width: 30px;
+  }
+
 }
