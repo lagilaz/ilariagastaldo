@@ -74,6 +74,16 @@ li {
   font-weight: normal;
 }
 
+.biolink {
+  text-decoration: none !important;
+  color: black;
+  transition: 0.5s;
+}
+
+.biolink:hover {
+  color: darkgray;
+}ss
+
 li {
   transition: 0.5s;
 }
