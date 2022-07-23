@@ -98,6 +98,16 @@ li {
   color: darkgray !important;
 }
 
+.artlink {
+  text-decoration: none !important;
+  color: black;
+  transition: 0.5s;
+}
+
+.artlink:hover {
+  color: darkgray;
+}
+
 li {
   transition: 0.5s;
 }
