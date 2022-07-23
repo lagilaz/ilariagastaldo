@@ -158,7 +158,7 @@ h1 {
   font-weight: normal;
   float: left;
   padding-bottom: 20px;
-  padding-left: 62px;
+  padding-left: 72px;
   text-align: left;
   font-size: 40px;}
 
@@ -169,7 +169,7 @@ h1 {
   height: 333px;
   padding-top: 100px;
   left: 0px;
-  top: 240px;
+  top: 300px;
   right: 0;
   padding-left: 1px;
 }
@@ -186,6 +186,18 @@ p {
   display: block;
   width: 80%;
   font-size: 23px;
+}
+
+.instagram,
+.youtube {
+  color: black;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.instagram:hover,
+.youtube:hover {
+  color: darkgray;
 }
 
 .item {
