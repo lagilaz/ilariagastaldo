@@ -56,10 +56,13 @@ li {
   position: absolute;
   left: 10px;
   top: 8px;
+  padding-right: 10px;
 }
 
 .uno {
-  margin-left: 70px;
+  position: absolute;
+  left: 80px;
+
 }
 
 .rightside {
@@ -81,6 +84,16 @@ li {
 }
 
 .biolink:hover {
+  color: darkgray;
+}
+
+.prolink {
+  text-decoration: none !important;
+  color: black;
+  transition: 0.5s;
+}
+
+.prolink:hover {
   color: darkgray;
 }
 

@@ -56,10 +56,13 @@ li {
   position: absolute;
   left: 10px;
   top: 8px;
+  padding-right: 10px;
 }
 
 .uno {
-  margin-left: 70px;
+  position: absolute;
+  left: 80px;
+
 }
 
 .rightside {
@@ -74,14 +77,25 @@ li {
   font-weight: normal;
 }
 
+
 .biolink {
   text-decoration: none !important;
-  color: black;
+  color: black !important;
   transition: 0.5s;
 }
 
 .biolink:hover {
-  color: darkgray;
+  color: darkgray !important;
+}
+
+.prolink {
+  text-decoration: none !important;
+  color: black !important;
+  transition: 0.5s;
+}
+
+.prolink:hover {
+  color: darkgray !important;
 }
 
 li {
