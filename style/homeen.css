@@ -109,7 +109,7 @@ li {
 li {
   transition: 0.5s;
 }
-li:not(.uno, .italian):hover {
+li:not(.uno, .english):hover {
   color: darkgray;
 }
 
@@ -155,9 +155,9 @@ h1 {
   font-weight: normal;
   float: left;
   padding-bottom: 20px;
-  padding-left: 62px;
-  text-align: left;
-  font-size: 40px;}
+  text-align: center;
+  font-size: 40px;
+}
 
 .p-welcome {
   display: flex;
@@ -173,21 +173,21 @@ p {
   padding-left: 12px;
 }
 
-.clessidra-div {
+.avatar-div {
   display: flex;
   width: 50%;
   align-items: center;
   justify-content: center;
 }
 
-.clessidra-image {
-  border-radius: 100px;
+.avatar-image {
+  border-radius: 170px;
   opacity: 0.7;
   transition: 0.5s;
-
+  box-shadow: 4px 8px 8px 4px gray;
 }
 
-.clessidra-image:hover {
+.avatar-image:hover {
   opacity: 1;
 }
 
@@ -250,4 +250,73 @@ address {
   color: darkgray;
   font-size: 18px;
   text-align: right;
+}
+
+
+@media (max-width: 768px) {
+  * {
+    font-family: 'Homemade Apple', cursive;
+    font-family: 'Tajawal', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: darkgray;
+  }
+
+  .header {
+    display: flex;
+    border: 1px solid black;
+    width: 600px;
+    height: 80px;
+    margin: 0 auto;
+  }
+
+  .header-body {
+    display: flex;
+    width: 600px;
+    height: 80px;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+  }
+
+  li {
+    font-size: 18px;
+
+  }
+
+  .leftside {
+    position: relative;
+    width: 40%;
+    padding: 22px;
+  }
+
+  .avatar {
+    position: absolute;
+    left: 10px;
+    top: 18px;
+    width: 40px;
+  }
+
+  .rightside {
+    position: relative;
+    width: 40%;
+    padding: 22px;
+  }
+
+  .social {
+    position: absolute;
+    right: 2px;
+    top: 20px;
+    width: 30px;
+  }
+
 }

@@ -96,6 +96,16 @@ li {
   color: darkgray;
 }
 
+.artlink {
+  text-decoration: none !important;
+  color: black;
+  transition: 0.5s;
+}
+
+.artlink:hover {
+  color: darkgray;
+}
+
 li {
   transition: 0.5s;
 }
@@ -163,21 +173,20 @@ p {
   padding-left: 12px;
 }
 
-.clessidra-div {
+.cv-div {
   display: flex;
   width: 50%;
   align-items: center;
   justify-content: center;
 }
 
-.clessidra-image {
-  border-radius: 100px;
+.curriculum-image {
   opacity: 0.7;
   transition: 0.5s;
 
 }
 
-.clessidra-image:hover {
+.curriculum-image:hover {
   opacity: 1;
 }
 

@@ -62,6 +62,7 @@ li {
 .uno {
   position: absolute;
   left: 80px;
+
 }
 
 .rightside {
@@ -96,10 +97,20 @@ li {
   color: darkgray;
 }
 
+.artlink {
+  text-decoration: none !important;
+  color: black;
+  transition: 0.5s;
+}
+
+.artlink:hover {
+  color: darkgray;
+}
+
 li {
   transition: 0.5s;
 }
-li:not(.uno, .english):hover {
+li:not(.uno, .italian):hover {
   color: darkgray;
 }
 
@@ -123,17 +134,19 @@ li:not(.uno, .english):hover {
 /* BODY START */
 
 .welcome {
+  position: relative;
   border: 1px solid darkgray;
   width: 1000px;
   display: flex;
   margin-top: 40px;
   margin-bottom: 40px;
-  height: 450px;
+  height: 900px;
   box-shadow: 4px 8px 8px 4px gray;
   background-color: #D2D2D2;
 }
 
 .heading {
+  position: absolute;
   display: block;
   width: 50%;
   padding-top: 40px;
@@ -141,46 +154,62 @@ li:not(.uno, .english):hover {
 
 h1 {
   display: block;
-  width: 100%;
+  width: 1000px;
   font-weight: normal;
   float: left;
   padding-bottom: 20px;
-  text-align: center;
-  font-size: 40px;
+  padding-left: 61px;
+  text-align: left;
+  font-size: 40px;}
+
+.gridcontainer {
+  position: absolute;
+  border-radius: 1px solid black;
+  width: 1000px;
+  height: 333px;
+  padding-top: 100px;
+  left: 0px;
+  top: 300px;
+  right: 0;
+  padding-left: 1px;
 }
 
 .p-welcome {
   display: flex;
   border: 1px solid #D2D2D2;
   height: 300px;
-  padding-top: 30px;
+  padding-top: 150px;
+  margin-left: 0;
 }
 
 p {
   display: block;
   width: 80%;
   font-size: 23px;
-  padding-left: 12px;
 }
 
-.avatar-div {
-  display: flex;
-  width: 50%;
-  align-items: center;
-  justify-content: center;
+.instagram,
+.youtube {
+  color: black;
+  text-decoration: none;
+  transition: 0.5s;
 }
 
-.avatar-image {
-  border-radius: 170px;
+.instagram:hover,
+.youtube:hover {
+  color: darkgray;
+}
+
+.item {
+  width: 33%;
+  border: 1px solid black;
   opacity: 0.7;
   transition: 0.5s;
-  box-shadow: 4px 8px 8px 4px gray;
 }
 
-.avatar-image:hover {
+.item:hover {
   opacity: 1;
 }
-
 /* BODY END */
 
 /*FOOTER START */
@@ -240,73 +269,4 @@ address {
   color: darkgray;
   font-size: 18px;
   text-align: right;
-}
-
-
-@media (max-width: 768px) {
-  * {
-    font-family: 'Homemade Apple', cursive;
-    font-family: 'Tajawal', sans-serif;
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  body {
-    background-color: darkgray;
-  }
-
-  .header {
-    display: flex;
-    border: 1px solid black;
-    width: 600px;
-    height: 80px;
-    margin: 0 auto;
-  }
-
-  .header-body {
-    display: flex;
-    width: 600px;
-    height: 80px;
-    margin: 0 auto;
-    justify-content: center;
-    flex-direction: row;
-  }
-
-  ul {
-    display: flex;
-    list-style-type: none;
-  }
-
-  li {
-    font-size: 18px;
-
-  }
-
-  .leftside {
-    position: relative;
-    width: 40%;
-    padding: 22px;
-  }
-
-  .avatar {
-    position: absolute;
-    left: 10px;
-    top: 18px;
-    width: 40px;
-  }
-
-  .rightside {
-    position: relative;
-    width: 40%;
-    padding: 22px;
-  }
-
-  .social {
-    position: absolute;
-    right: 2px;
-    top: 20px;
-    width: 30px;
-  }
-
 }

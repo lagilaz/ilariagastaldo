@@ -1,0 +1,252 @@
+* {
+  font-family: 'Homemade Apple', cursive;
+  font-family: 'Tajawal', sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkgray;
+}
+
+strong {
+  color: darkred;
+}
+
+/* HEADER START */
+
+.header {
+  display: flex;
+  border: 1px solid darkgray;
+  box-shadow: 4px 8px 8px 4px gray;
+  width: 900px;
+  height: 80px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: #D2D2D2;
+}
+
+.header-body {
+  display: flex;
+  width: 900px;
+  height: 80px;
+  margin: 0 auto;
+  justify-content: center;
+  flex-direction: row;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  font-size: 22px;
+  padding-right: 10px;
+}
+
+.leftside {
+  position: relative;
+  width: 50%;
+  padding: 22px;
+}
+
+.avatar {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  padding-right: 10px;
+}
+
+.uno {
+  position: absolute;
+  left: 80px;
+}
+
+.rightside {
+  position: relative;
+  width: 50%;
+  padding: 22px;
+}
+
+.bio,
+.pro,
+.illustrazioni {
+  font-weight: normal;
+}
+
+.biolink {
+  text-decoration: none !important;
+  color: black;
+  transition: 0.5s;
+}
+
+.biolink:hover {
+  color: darkgray;
+}
+
+.prolink {
+  text-decoration: none !important;
+  color: black;
+  transition: 0.5s;
+}
+
+.prolink:hover {
+  color: darkgray;
+}
+
+.artlink {
+  text-decoration: none !important;
+  color: black;
+  transition: 0.5s;
+}
+
+.artlink:hover {
+  color: darkgray;
+}
+
+li {
+  transition: 0.5s;
+}
+li:not(.uno, .italian):hover {
+  color: darkgray;
+}
+
+.social {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.social:hover {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  opacity: 1;
+}
+
+/* HEADER END */
+
+/* BODY START */
+
+.welcome {
+  border: 1px solid darkgray;
+  width: 1000px;
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 450px;
+  box-shadow: 4px 8px 8px 4px gray;
+  background-color: #D2D2D2;
+}
+
+.heading {
+  display: block;
+  width: 50%;
+  padding-top: 40px;
+}
+
+h1 {
+  display: block;
+  width: 100%;
+  font-weight: normal;
+  float: left;
+  padding-bottom: 20px;
+  padding-left: 62px;
+  text-align: left;
+  font-size: 40px;}
+
+.p-welcome {
+  display: flex;
+  border: 1px solid #D2D2D2;
+  height: 300px;
+  padding-top: 30px;
+}
+
+p {
+  display: block;
+  width: 80%;
+  font-size: 23px;
+  padding-left: 12px;
+}
+
+.cv-div {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.curriculum-image {
+  opacity: 0.7;
+  transition: 0.5s;
+
+}
+
+.curriculum-image:hover {
+  opacity: 1;
+}
+
+/* BODY END */
+
+/*FOOTER START */
+
+footer {
+  display: flex;
+  background-color: #D2D2D2;
+  box-shadow: 4px 8px 8px 4px gray;
+  margin: 0 auto;
+  width: 1000px;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+}
+
+.languages {
+  display: flex;
+  flex-direction: row;
+  padding-left: 15px;
+  margin-left: 0;
+  font-size: 18px;
+}
+
+.italian {
+  font-size: 22px !important;
+  text-decoration: none;
+  color: black;
+}
+
+.english {
+  font-size: 22px !important;
+  text-decoration: none;
+  color: black;
+}
+
+address {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 0;
+  padding-right: 15px;
+  font-style: normal;
+  font-size: 18px;
+  text-align: right;
+}
+
+.email {
+  padding-left: 8px;
+  text-decoration: none !important;
+  color: black;
+  font-size: 18px;
+  text-align: right;
+  transition: 0.5s;
+}
+
+.email:hover {
+  padding-left: 8px;
+  color: darkgray;
+  font-size: 18px;
+  text-align: right;
+}
