@@ -431,7 +431,7 @@ address {
     display: block;
     width: 90%;
     font-size: 20px;
-    padding-left: 10px;
+    padding-left: 0px;
   }
 
   .cv-div {
