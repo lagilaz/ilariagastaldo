@@ -321,7 +321,7 @@ address {
   .uno {
     position: absolute;
     left: 80px;
-    top: 10;
+    top: 6px;
     width: 80%;
 
   }
@@ -389,7 +389,7 @@ address {
   .social:hover {
     position: absolute;
     right: 10px;
-    top: 12px;
+    top: 50px;
     opacity: 1;
   }
 
@@ -411,7 +411,7 @@ address {
   .heading {
     display: block;
     width: 100%;
-    padding-top: 40px;
+    padding-top: 30px;
   }
 
   h1 {
@@ -422,7 +422,7 @@ address {
     padding-bottom: 10px;
     text-align: left;
     font-size: 9vw;
-    padding-left: 8px;
+    padding-left: 10px;
 
   }
 

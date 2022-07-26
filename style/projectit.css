@@ -319,7 +319,7 @@ address {
   .uno {
     position: absolute;
     left: 80px;
-    top: 0;
+    top: 6px;
   }
 
   .rightside {
@@ -385,7 +385,7 @@ address {
   .social:hover {
     position: absolute;
     right: 10px;
-    top: 12px;
+    op: 50px;
     opacity: 1;
   }
 
@@ -430,7 +430,7 @@ address {
   p {
     display: block;
     width: 90%;
-    font-size: 23px;
+    font-size: 20px;
     margin-left: 0px;
   }
 

@@ -162,7 +162,7 @@ h1 {
 .p-welcome {
   display: flex;
   border: 1px solid #D2D2D2;
-  height: 300px;
+  max-height: 300px;
   padding-top: 30px;
 }
 
@@ -385,7 +385,7 @@ address {
   .social:hover {
     position: absolute;
     right: 10px;
-    top: 12px;
+    top: 50px;
     opacity: 1;
   }
 
@@ -430,8 +430,8 @@ address {
   p {
     display: block;
     width: 90%;
-    font-size: 23px;
-    margin-left: 0px;
+    font-size: 20px;
+    padding-left: 10px;
   }
 
   .cv-div {
