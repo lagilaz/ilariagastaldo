@@ -428,7 +428,7 @@ address {
   .p-welcome {
     display: flex;
     border: 1px solid #D2D2D2;
-    min-height: 900px;
+    min-height: 850px;
   }
 
   p {
@@ -440,14 +440,14 @@ address {
 
   .ship-div {
     display: flex;
-    width: 40%;
+    width: 50%;
     align-items: center;
     justify-content: center;
   }
 
   .ship-image {
     border-radius: 80px;
-    width: 180px;
+    width: 200px;
     opacity: 0.7;
     transition: 0.5s;
     box-shadow: 4px 8px 8px 4px gray;
