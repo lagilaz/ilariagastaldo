@@ -440,14 +440,14 @@ address {
 
   .ship-div {
     display: flex;
-    width: 50%;
+    width: 40%;
     align-items: center;
     justify-content: center;
   }
 
   .ship-image {
     border-radius: 80px;
-    width: 200px;
+    width: 180px;
     opacity: 0.7;
     transition: 0.5s;
     box-shadow: 4px 8px 8px 4px gray;
